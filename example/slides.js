@@ -14,6 +14,16 @@ const getAttribution = ({ name, username }) => (
 
 export default [
   {
+    description: 'Houston',
+    attribution: getAttribution({
+      name: 'Vlad Busuioc',
+      username: 'juvx',
+    }),
+    imgUrl:
+      'https://images.unsplash.com/photo-1470082719408-b2843ab5c9ab?w=1080' +
+      'ixid=eyJhcHBfaWQiOjEyMDd9',
+  },
+  {
     description: 'Seattle',
     attribution: getAttribution({
       name: 'Ganapathy Kumar',
